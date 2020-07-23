@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GITHUB COMMANDS</title>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>LOGIN</title>
+	
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+	
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery-3.4.1.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+
+	<style type="text/css" rel="stylesheet">
+		
+		* {
+			margin:0px;
+			padding:0px;
+		    font-family:'courier new';
+
+		   }
+
+		 h1 {
+		 	font-size:30px;
+		 }
+
+
+	</style>
+</head>
+<body>
+
+<h1 style="font-size:40px;text-align:center;margin-top:10px;margin-bottom:10px;">GITHUB COMMANDS</h1>
+
+<table class="table table-bordered table-hover table-striped" align="center" cellspacing="1">
+		<tr>
+			<th class="bg-dark text-light">
+				S.No.
+			</th>
+			<th class="bg-dark text-light">
+				Command
+			</th>
+			<th class="bg-dark text-light">
+				Description
+			</th>
+		</tr>
+
+		<tr>
+			<td>
+				1
+			</td>
+			<td>
+				Git status :
+			</td>
+			<td>
+				 It is used to check the status of the git repositery 
+			</td>
+		</tr>
+		<tr>
+			<td>
+				2
+			</td>
+			<td>
+				git init :
+			</td>
+			<td>
+				 It is used to initialize the git repositery and it makes a ".git" folder.
+			</td>
+		</tr>
+		<tr>
+			<td>
+				3
+			</td>
+			<td>
+				git config --global user.name "<username>" :
+			</td>
+			<td>
+				This command inculudes the configuration of the user's username with a global scope. 
+			</td>
+		</tr>
+		<tr>
+			<td>
+				4
+			</td>
+			<td>
+				 git config --global user.email "<email>" :
+			</td>
+			<td>
+				 This command includes the configuration of the user's email with global scope.
+			</td>
+		</tr>
+		<tr>
+			<td>
+				 5
+			</td>
+			<td>
+				git add ./<filename> :
+			</td>
+			<td>
+				 This command is used to stage the repositery to the git. And the '.' is used for selecting all the files. 
+			</td>
+		</tr>
+		<tr>
+			<td>
+				6
+			</td>
+			<td>
+				 git commit -m "<message>" :
+			</td>
+			<td>
+				This command is used to commit or save the changes with an updated message. Each commit generates a unique Hash code.
+			</td>
+		</tr>
+		<tr>
+			<td>
+				7
+			</td>
+			<td>
+				git remote add origin :
+			</td>
+			<td>
+				It will add the remote named as origin. Origin will contain the link and we can call the link by origin.
+			</td>
+		</tr>
+		<tr>
+			<td>
+				8
+			</td>
+			<td>
+				git push -u origin master :
+			</td>
+			<td>
+				 This command is used to push or send the changes in the repositery to the github. It will push the master branch to the remote repositery or the Github.
+			</td>
+		</tr>
+		<tr>
+			<td>
+				9
+			</td>
+			<td>
+				git log :
+			</td>
+			<td>
+				It is used to check the logs or activities done by the users.
+			</td>
+		</tr>
+		<tr>
+			<td>
+				10
+			</td>
+			<td>
+				 git reset ./<filenamae> :
+			</td>
+			<td>
+				It is used to reset or unstage the repositery .
+			</td>
+		</tr>
+		<tr>
+			<td>
+				11
+			</td>
+			<td>
+				git checkout ./<filename> :
+			</td>
+			<td>
+				 It is used to delete the new or unwanted changes in the mentioned file.
+			</td>
+		</tr>
+		<tr>
+			<td>
+				12
+			</td>
+			<td>
+				git diff :
+			</td>
+			<td>
+				It is used to find the difference of the updated file and old file. But the file should not be staged because it compaeres the updated file with the unstaged file.
+			</td>
+		</tr>
+		<tr>
+			<td>
+				13
+			</td>
+			<td>
+				git .gitignore :
+			</td>
+			<td>
+				It is used to ignore some particular files which we dont want to push on the github. It will ignore them while staging. It create a file then you need to add some file names in .gitignore file.
+				A slash will be used if we want .gitignore to ignore a file in any directory.
+			</td>
+		</tr>
+		<tr>
+			<td>
+				14
+			</td>
+			<td>
+				git branch :
+			</td>
+			<td>
+				It is used to list all the branches.
+			</td>
+		</tr>
+		<tr>
+			<td>
+				15
+			</td>
+			<td>
+				git branch "new branch name" :
+			</td>
+			<td>
+				It will create a new branch.
+			</td>
+		</tr>
+		<tr>
+			<td>
+				16
+			</td>
+			<td>
+				git checkout "branch name" :
+			</td>
+			<td>
+				It will switch us to the named branch.
+			</td>
+		</tr>
+		<tr>
+			<td>
+				17
+			</td>
+			<td>
+				git merge " branch name" :
+			</td>
+			<td>
+				It will merge the mentioned branch with current branch.
+			</td>
+		</tr>
+		<tr>
+			<td>
+				18
+			</td>
+			<td>
+				git checkout -b "new branch name" :
+			</td>
+			<td>
+				It will create a branch and get switched to new branch simultaneously.
+			</td>
+		</tr>
+		<tr>
+			<td>
+				19
+			</td>
+			<td>
+				git remote :
+			</td>
+			<td>
+				It will show the remote origin.
+			</td>
+		</tr>
+		<tr>
+			<td>
+				20
+			</td>
+			<td>
+				git remote -v :
+			</td>
+			<td>
+				It will show the URLs which are showing that from where are you going to push or pull.
+			</td>
+		</tr>		
+</table>
+
+</body>
+</html>
+
